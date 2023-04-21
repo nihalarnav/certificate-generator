@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Certificate</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="favicon" href="../src/assets/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="../src/assets/logo.png" alt="Logo">
+        <h4>Get your certificate</h4>
+        <h1> <a href="" target="_blank"
+                rel="noopener noreferrer"></a></h1>
+    </header>
+    <main>
+
+        <label for="name">Type Your Name</label>
+        <input required type="text" name="Name" autocomplete="name" placeholder="Name" id="name" minlength="3"
+            maxlength="16">
+        <Button id="submitBtn">Get Certificate</Button>
+
+
+    </main>
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="../src/js/FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="../src/js/index.js"></script>
+</body>
+
+</html>
